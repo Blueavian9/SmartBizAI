@@ -1,5 +1,15 @@
 // src/index.ts
 
+
+
+// Import the type from another file
+import { TabAutocompleteOptions } from "./types"; // Correct import
+
+// Use the imported type
+export const someFunction = (opts: TabAutocompleteOptions) => { 
+  // Your code here 
+};
+
 // Declare the type locally
 export type TabAutocompleteOptions = {
   disable: boolean;
