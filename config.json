@@ -1,0 +1,8 @@
+{
+    "tabAutocompleteModel": {
+      "title": "Codestral",
+      "provider": "mistral",
+      "model": "codestral-latest",
+      "apiKey": "YOUR_API_KEY"
+    }
+  }
