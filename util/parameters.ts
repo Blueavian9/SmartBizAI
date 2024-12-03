@@ -1,5 +1,6 @@
-import { TabAutocompleteOptions } from "../src/index.js";
+import { TabAutocompleteOptions } from "../src/index"; // Import from TypeScript file
 
+// Define the constant using the imported type
 export const DEFAULT_AUTOCOMPLETE_OPTS: TabAutocompleteOptions = {
   disable: false,
   useCopyBuffer: false,
@@ -20,16 +21,3 @@ export const DEFAULT_AUTOCOMPLETE_OPTS: TabAutocompleteOptions = {
   recentLinePrefixMatchMinLength: 7,
   disableInFiles: undefined,
 };
-
-export const COUNT_COMPLETION_REJECTED_AFTER = 10_000;
-export const DO_NOT_COUNT_REJECTED_BEFORE = 250;
-
-export const RETRIEVAL_PARAMS = {
-  rerankThreshold: 0.3,
-  nFinal: 10,
-  nRetrieve: 20,
-  bm25Threshold: -2.5,
-};
-
-// export const SERVER_URL = "http://localhost:3000";
-export const SERVER_URL = "https://proxy-server-blue-l6vsfbzhba-uw.a.run.app";
